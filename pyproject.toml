@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "text-expander"
+version = "0.1.0"
+description = ""
+authors = ["meirdev <maornet@gmail.com>"]
+readme = "README.md"
+packages = [{include = "text_expander"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pynput = "^1.7.6"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.7.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
